@@ -51,8 +51,6 @@ time.sleep(5)
 new_wd = wd.window_handles[-1]
 wd.switch_to.window(new_wd)
 
-# # 关闭弹幕
-# wd.find_element(By.CLASS_NAME, 'bui-danmaku-switch-input').click()
 #
 # sleep(5)
 
